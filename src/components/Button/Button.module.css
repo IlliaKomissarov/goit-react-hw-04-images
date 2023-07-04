@@ -1,0 +1,25 @@
+.button_load__more {
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  background-color: rgb(6, 115, 68);
+  border: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button_load__more:hover {
+  box-shadow: 2px 2px 5px #b097b2;
+}
+
+.button_load__more.is-hidden {
+  display: none;
+}
